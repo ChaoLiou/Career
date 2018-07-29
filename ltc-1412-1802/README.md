@@ -5,7 +5,7 @@
 - design and maintain `data transfer` system in scheduler or friendly manipulation
   - transfer the data which is the feeds for searching on primary product (website) from xml/json/... to database)
 - assist other projects to implement customized features (3-4 men group)
-- `asp.net`, `asp.net mvc`, `css/less`, `js/knockoutjs`, `ado.netxlinq2sql`
+- `asp.net`, `asp.net mvc`, `ado.netxlinq2sql`, `css/less`, `css/bootstrap`, `js/knockoutjs`, `js/jquery`
 
 # Experiences (only if it's worth mentioning)
 ## Outline
