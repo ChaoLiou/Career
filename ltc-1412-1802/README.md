@@ -7,7 +7,7 @@
 - assist other projects to implement customized features (3-4 men group)
 - `asp.net`, `asp.net mvc`, `css/less`, `js/knockoutjs`, `ado.netxlinq2sql`
 
-# Experiences (worth mentioning)
+# Experiences (only if it's worth mentioning)
 ## Outline
 - [data transfer system](#data-transfer-system)
 - [crawling and scraping skills](#crawling-and-scraping-skills)
