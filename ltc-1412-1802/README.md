@@ -16,5 +16,8 @@
 - browser ui testing with Casperjs
 
 ### data transfer system
+- First of all, you should know that the `data` here is the `patent data`, and these patents which users can search for on products are provided from many different countries (like us, tw, cn, jp, kr) or organizations (like ep, wipo, docdb). On average, most of the patent sources would provide new patents twice a week.
+- Before I'm in this work, there are a lot of console applications or batch executions for every patent source to get its data transfer procedure done. It's like "ok, today we want to add a new patent source to database for searching, then we design a new data transfer procedure for only this new patent source, and future we do it whole again". It's really unmaintainable to me, because of all application logic/execution flows I need to remember.
+- I decide to arrange them by notes, and make a new pattern not only for every patent source but also new patent source we want in the future.
 ### crawling and scraping skills
 ### pdf downloading system
