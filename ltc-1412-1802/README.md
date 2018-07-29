@@ -9,9 +9,9 @@
 
 # Experiences (worth mentioning)
 ## Outline
-- [data transfer system]("#data-transfer-system")
-- [crawling and scraping skills]("#crawling-and-scraping-skills")
-- [pdf downloading system]("#pdf-downloading-system")
+- [data transfer system](#data-transfer-system)
+- [crawling and scraping skills](#crawling-and-scraping-skills)
+- [pdf downloading system](#pdf-downloading-system)
 - tfs CICD
 - browser ui testing with Casperjs
 
