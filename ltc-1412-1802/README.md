@@ -12,7 +12,7 @@
 - [data transfer system](#data-transfer-system)
 - [crawling and scraping skills](#crawling-and-scraping-skills)
 - [pdf downloading system](#pdf-downloading-system)
-- tfs CICD
+- set up all primary projects on `tfs CICD`
 - browser ui testing with Casperjs
 
 ### data transfer system
