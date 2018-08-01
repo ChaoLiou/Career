@@ -8,7 +8,7 @@
 - experience tags
   - `asp.net`, `asp.net mvc`, `webservice, webapi`, `ado.net, linq2sql`, `T-SQL`, `css/less`, `css/bootstrap`, `js/knockoutjs`, `js/jquery`
   - `MS SQL`, `IIS`
-  - `regular expression`, `xml, sgml`, `reading archive(zip, gz, tar)`
+  - `regular expression`, `xml, sgml`, `manipulate archive(zip, gz, tar)`
 
 # Experiences
 - [data transfer system](#data-transfer-system)
