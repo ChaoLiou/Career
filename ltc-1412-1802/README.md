@@ -30,17 +30,18 @@
 |(download archieve: .zip, .gz.tar, .rar)       |    |(the records may be from index.lst, .csv or .xls,                      | 
  '''''''''''''''''''''''''''''''''''''''''''''''     | even do archive crc checksum to match the checksum in .txt they give) |
                                                       ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-                                                      / pass or reject then report                            _____   
-                                                     V                                                      /  loop \
-             B_____________________________________________________________________________________________V__       |
-            |1. read contents(xml, sgml): extract / just read every entry in the archive from stream to string|____ /
+                                                      / pass or reject then report                            ______  
+                                                     V                                                      /  loop  \
+             B_____________________________________________________________________________________________V__        |
+            |1. read contents(xml, sgml): extract / just read every entry in the archive from stream to string|_____ /
             |2. sgml to xml(.dtd) / xml -> xpath -> tag -> attribute & value -> fill the model class          |
              '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-                              | a model list and ready to database
-                              V
-             C____________________________________
-            |sql bulk copy to insert rows to table|
-             '''''''''''''''''''''''''''''''''''''
+                              | a model list and ready to database ___
+                              V                                  /loop\
+             C__________________________________________________V_     |
+            |sql bulk copy to insert rows to table several times  |___/
+            |(based on the content size and change the batch size)|
+             '''''''''''''''''''''''''''''''''''''''''''''''''''''
                               | success or fail
                               V
              ___________________________________________________
