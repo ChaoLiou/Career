@@ -53,7 +53,7 @@
 ```
 ### crawling and scraping skills
 ### pdf downloading system
-- fill the form & click the download button on the website, then you can leave this page
+- fill the form & click the download button on the website, then you can leave this page(it will send email)
 ```
  _______              C_return_GUID                                            ___________________________________________
 |website|________   /              \ _____________________________            |worker which prepare pdf/pdfs, then compress|
