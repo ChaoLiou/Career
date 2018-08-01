@@ -18,6 +18,8 @@
 - headless browser ui testing with Casperjs
 
 ### data transfer system
+- same pattern for every type
+- clearly debugging and easy to implement new one 
 ```
  __________________________________________
 |Offical / Source Site released new package| 
