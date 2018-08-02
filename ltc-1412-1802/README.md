@@ -70,6 +70,7 @@ analyze in many different types of tables or charts
              ||    2. who wants          |  |    B---add-new-task-rows-->|download tasks(database)|
              ||_D_while(true)_until_100%_|  |                             ''''''''''''''''''''''''
              | get with GUID to ask progress|
+             |                              |
              |_E_&_F________________________|
              get & return the download url to the zip path
 ```
