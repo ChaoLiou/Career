@@ -14,9 +14,9 @@ analyze in many different types of tables or charts
   - `regular expression`, `xml, sgml`, `manipulate archive(zip, gz, tar)`
 
 # Experiences
-- [patent transfer system](#patent-transfer-system)
+- [patents transfer system](#patents-transfer-system)
 - [crawling and scraping skills](#crawling-and-scraping-skills)
-- [pdf downloading system](#pdf-downloading-system)
+- [patent pdfs download system](#patent-pdfs-download-system)
 - setting up projects on `tfs CICD`
 - headless browser ui testing with Casperjs
 
