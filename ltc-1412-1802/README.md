@@ -1,36 +1,41 @@
 # Brief Intro
 - `LearningTech` (`Innovue` now) @Pingzhen/Taoyuan
 - Software Engineer/Junior Fullstack Developer, 14.12 - 18.02
-- maintain 2 product projects and develop new features (2 men group)
-- design and maintain `data transfer` system in scheduler or friendly manipulation
-  - transfer the data which is the feeds for searching on our website from xml/json/... to database)
-- often assist other projects to implement customized features (3-4 men group)
+- maintain 2 projects and develop new features (2 men group)
+  - one is a website for searching & viewing patents 
+  - another one is a website not only for searching & viewing patents, but also download them to your own project to
+analyze in many different types of tables or charts  
+- design and maintain `patents transfer system`
+  - * transfer the patent which is the feeds for searching on websites, from sgml/xml/json to database)
+- sometimes assist other developers' projects to implement customized features (3-4 men group)
 - experience tags
-  - `asp.net`, `asp.net mvc`, `webservice, webapi`, `ado.net, linq2sql`, `T-SQL`, `css/less`, `css/bootstrap`, `js/knockoutjs`, `js/jquery`
+  - `asp.net`, `asp.net mvc`, `webservice, webapi`, `ado.net, linq2sql`, `css/less`, `css/bootstrap`, `js/knockoutjs`, `js/jquery`
   - `MS SQL`, `IIS`
   - `regular expression`, `xml, sgml`, `manipulate archive(zip, gz, tar)`
 
 # Experiences
-- [data transfer system](#data-transfer-system)
+- [patent transfer system](#patent-transfer-system)
 - [crawling and scraping skills](#crawling-and-scraping-skills)
 - [pdf downloading system](#pdf-downloading-system)
 - setting up projects on `tfs CICD`
 - headless browser ui testing with Casperjs
 
-### data transfer system
-- same pattern for every type
-- clearly debugging and easy to implement new one 
+### patents transfer system
+- it's a system that transfer patent information from [xmls inside a archive] to [rows inside database/tables] 
+- pros against orignal one: 
+  - same design pattern for every patent source of the organizations/governments
+  - will be able to debug clearly and easy to implement new patent source 
 ```
  __________________________________________
-|Offical / Source Site released new package| 
-|(on average, twice a week each)           |
+|Offical / Source Site released new patents| 
+|(on average, twice a week each: isu/pub)  |
  ''''''''''''''''''''''''''''''''''''''''''
                 |
                 V
  _______________________________________________      A______________________________________________________________________
 |download: schedulely / manual input to activate| -> |check consistent between the number of files and the number they record|
-|(download archieve: .zip, .gz.tar, .rar)       |    |(the records may be from index.lst, .csv or .xls,                      | 
- '''''''''''''''''''''''''''''''''''''''''''''''     | even do archive crc checksum to match the checksum in .txt they give) |
+|(download archive: .zip, .gz.tar, .rar)        |    |(the records may be from index.lst, .csv or .xls,                      | 
+ '''''''''''''''''''''''''''''''''''''''''''''''     | even do archive crc checksum to match the checksum in .txt they gave) |
                                                       ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
                                                       / pass or reject then report                            ______  
                                                      V                                                      /  loop  \
@@ -52,12 +57,13 @@
              '''''''''''''''''''''''''''''''''''''''''''''''''''
 ```
 ### crawling and scraping skills
-### pdf downloading system
-- fill the form & click the download button on the website, then you can leave this page(it will send email)
+### patent pdfs download system
+- it's a system for exist projects which need to add feature for downloading patent pdfs to implement so easily 
+- on the project side, just make user fill the form & click the download button to finish, and post to webapi with informations, then it's all done.
 ```
  _______              C_return_GUID                                            ___________________________________________
 |website|________   /              \ _____________________________            |worker which prepare pdf/pdfs, then compress|
- '''''''         \ V     post       |pdf download center(webapi)  |           |them into \{GUID}\xxx.0.zip (window service)|
+ '''''''         \ V     post       |pdf download center (webapi) |           |them into \{GUID}\xxx.0.zip (window service)|
  ___________      |--------A------->|generate a GUID for this task|          //''''''''''''''''''''''''''''''''''''''''''''
 |browser ext|____/ post data:        '''''''''''''''''''''''''''''       sql||dependency  | update the same row each pdf done 
  ''''''''''' ^|    1. which pdf/pdfs     ^  ^   |                         ___\\___________V_______(when all done -> finished & zip path)
