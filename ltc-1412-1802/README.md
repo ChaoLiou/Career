@@ -60,19 +60,21 @@ analyze in many different types of tables or charts
 ### patent pdfs download system
 - it's a system for exist projects which need to add feature for downloading patent pdfs to implement so easily 
 - on the project side, just make user fill the form & click the download button to finish, and post to webapi with informations, then it's all done.
-```
- _______              C_return_GUID                                            ___________________________________________
-|website|________   /              \ _____________________________            |worker which prepare pdf/pdfs, then compress|
- '''''''         \ V     post       |pdf download center (webapi) |           |them into \{GUID}\xxx.0.zip (window service)|
- ___________      |--------A------->|generate a GUID for this task|          //''''''''''''''''''''''''''''''''''''''''''''
-|browser ext|____/ post data:        '''''''''''''''''''''''''''''       sql||dependency  | update the same row each pdf done 
- ''''''''''' ^|    1. which pdf/pdfs     ^  ^   |                         ___\\___________V_______(when all done -> 
+```         
+                                                  check the task is finished & gather the progress info then return
+                                                    & generate the zip download link
+ _______             C_return_GUID               _E_&_G_____________________         ____________________________________________
+|website|________   /              \ ___________V_________________          |       |worker which prepare pdf/pdfs, then compress|
+ '''''''         \ V     post       |pdf download center (webapi) |         |       |them into \{GUID}\xxx.0.zip (window service)|
+ ___________      |--------A------->|generate a GUID for this task|         |      //''''''''''''''''''''''''''''''''''''''''''''
+|browser ext|____/ post data:        '''''''''''''''''''''''''''''          |  sql||dependency  | update the same row each pdf done 
+ ''''''''''' ^|    1. which pdf/pdfs     ^  ^   |                         __V______\\___________V_(when all done -> 
              ||    2. who wants          |  |    B---add-new-task-rows-->|download tasks(database)|      update finished & zip path)
              ||_D_while(true)_until_100%_|  |                             ''''''''''''''''''''''''
-             | get with GUID to ask progress|
-             |                              |
-             |_E_&_F________________________|
-             get & return the download url to the zip path
+             | continuously ask progress    |
+             |                with task GUID|
+             |_F_&_H________________________|
+              ask & return the download link
 ```
 
 
