@@ -66,8 +66,8 @@ analyze in many different types of tables or charts
  '''''''         \ V     post       |pdf download center (webapi) |           |them into \{GUID}\xxx.0.zip (window service)|
  ___________      |--------A------->|generate a GUID for this task|          //''''''''''''''''''''''''''''''''''''''''''''
 |browser ext|____/ post data:        '''''''''''''''''''''''''''''       sql||dependency  | update the same row each pdf done 
- ''''''''''' ^|    1. which pdf/pdfs     ^  ^   |                         ___\\___________V_______(when all done -> finished & zip path)
-             ||    2. who wants          |  |    B---add-new-task-rows-->|download tasks(database)|
+ ''''''''''' ^|    1. which pdf/pdfs     ^  ^   |                         ___\\___________V_______(when all done -> 
+             ||    2. who wants          |  |    B---add-new-task-rows-->|download tasks(database)|      update finished & zip path)
              ||_D_while(true)_until_100%_|  |                             ''''''''''''''''''''''''
              | get with GUID to ask progress|
              |                              |
