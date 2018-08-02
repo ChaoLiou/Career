@@ -52,7 +52,7 @@ analyze in many different types of tables or charts
                               | success or fail
                               V
              ______________________________________________________
-            |output results & statistics of step A, step B & step C|
+            |report results & statistics of step A, step B & step C|
             |(send email / post json to webhook)                   |
              ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ```
