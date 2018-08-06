@@ -21,10 +21,11 @@ analyze in many different types of tables or charts
 - headless browser ui testing with Casperjs
 
 ### patents transfer system
-- it's a system that transfer patent information from [xmls inside a archive] to [rows inside database/tables] 
-- pros against orignal one: 
+- it's a system able to transfer patent informations from [xmls inside a archive] to [rows in database/tables] 
+- pros against orignal one (why did I repalce the old system with this?): 
   - same design pattern for every patent source of the organizations/governments
-  - will be able to debug clearly and easy to implement new patent source 
+  - will be able to debug clearly and easily implement new patent source 
+  - threshold knowledge is really low for new manipulators
 ```
  __________________________________________
 |Offical / Source Site released new patents| 
@@ -58,8 +59,8 @@ analyze in many different types of tables or charts
 ```
 ### crawling and scraping skills
 ### patent pdfs download system
-- it's a system for exist projects which need to add feature for downloading patent pdfs to implement so easily 
-- on the project side, just make user fill the form & click the download button to finish, and post to webapi with informations, then it's all done.
+- it's a system to easily implement the patent pdfs downloading feature for existing projects   
+- on the existing project side, just make user fill the form & click the download button to finish, and post to webapi with informations on server side, then it's all done.
 ```         
                                                   check the task is finished & gather the progress info then return
                                                     & generate the zip download link
