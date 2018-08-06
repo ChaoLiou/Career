@@ -15,12 +15,11 @@ analyze in many different types of tables or charts
 
 # Milestone Experiences
 - [patents transfer system](#patents-transfer-system)
-- [crawling and scraping skills](#crawling-and-scraping-skills)
 - [patent pdfs download system](#patent-pdfs-download-system)
 - setting up projects on `tfs CICD`
 - headless browser ui testing with Casperjs
 
-### patents transfer system
+### patents transfer system [:arrow_up_small:](#milestone-experiences)
 - it's a system able to transfer patent informations from [xmls inside a archive] to [rows in database/tables] 
 - pros against orignal one (why did I repalce the old system with this?): 
   - same design pattern for every patent source of the organizations/governments
@@ -57,8 +56,7 @@ analyze in many different types of tables or charts
             |(send email / post json to webhook)                   |
              ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ```
-### crawling and scraping skills
-### patent pdfs download system
+### patent pdfs download system [:arrow_up_small:](#milestone-experiences)
 - it's a system to easily implement the patent pdfs downloading feature for existing projects   
 - on the existing project side, just make user fill the form & click the download button to finish, and post to webapi with informations on server side, then it's all done.
 ```         
