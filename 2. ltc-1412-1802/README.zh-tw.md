@@ -13,8 +13,8 @@
   - `regular expression`, `xml, sgml`, `manipulate archive(zip, gz, tar)`
 
 # 里程碑經歷
-- [專利轉置系統](#專利轉置系統)
-- [專利 PDF 下載系統](#專利-PDF-下載系統)
+- [專利轉置系統](#專利轉置系統-arrow_up_small)
+- [專利 PDF 下載系統](#專利-PDF-下載系統-arrow_up_small)
 - 設定公司專案到 `tfs CICD`
 - 無頭瀏覽器 UI 測試 (使用 Casperjs)
 
@@ -55,7 +55,7 @@
             |(send email / post json to webhook)                   |
              ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ```
-### 專利 PDF 下載系統 [:arrow_up_small:](#milestone-experiences)
+### 專利 PDF 下載系統 [:arrow_up_small:](#里程碑經歷)
 - 這個系統能很簡單就能讓公司其他已存在的專案提供 專利 PDF 下載的功能
 - 在一個已存在的專案這邊, 只要提供介面讓使用者填好表格並按下下載, 程式透過 post 並把資訊也都帶上 送到 下載系統的 webapi, 這樣就大功告成了. 
 ```         
