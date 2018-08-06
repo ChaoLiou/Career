@@ -1,6 +1,6 @@
 # Brief Intro
-- `LearningTech` (`Innovue` now) @Pingzhen/Taoyuan
-- Software Engineer/Junior Fullstack Developer, 14.12 - 18.02
+- :office: : `LearningTech` (`Innovue` now) @Pingzhen/Taoyuan
+- :construction_worker: : Software Engineer/Junior Fullstack Developer, 14.12 - 18.02
 - maintain 2 projects and develop new features (2 men group)
   - one is a website for searching & viewing patents 
   - another one is a website not only for searching & viewing patents, but also download them to your own project to
@@ -13,7 +13,7 @@ analyze in many different types of tables or charts
   - `MS SQL`, `IIS`
   - `regular expression`, `xml, sgml`, `manipulate archive(zip, gz, tar)`
 
-# Experiences
+# Milestone Experiences
 - [patents transfer system](#patents-transfer-system)
 - [crawling and scraping skills](#crawling-and-scraping-skills)
 - [patent pdfs download system](#patent-pdfs-download-system)
