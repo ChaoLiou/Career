@@ -58,6 +58,7 @@ analyze in many different types of tables or charts
 ```
 ### setting up projects on tfs CICD [:arrow_up_small:](#milestone-experiences)
 - [tfs cicd notes](https://hackmd.io/s/Bkg9M3LSQ)
+- [Console Application: BuildFailedNotification](https://github.com/ChaoLiou/BuildFailedNotification)
 ### patent pdfs download system [:arrow_up_small:](#milestone-experiences)
 - it's a system to easily implement the patent pdfs downloading feature for existing projects   
 - on the existing project side, just make user fill the form & click the download button to finish, and post to webapi with informations on server side, then it's all done.
