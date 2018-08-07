@@ -16,7 +16,7 @@ analyze in many different types of tables or charts
 # Milestone Experiences
 - [patents transfer system](#patents-transfer-system-arrow_up_small)
 - [patent pdfs download system](#patent-pdfs-download-system-arrow_up_small)
-- [setting up projects on tfs CICD](#setting-up-projects-on-tfs-CICD-arrow_up_small)
+- [setting up projects on tfs CICD](#setting-up-projects-on-tfs-cicd-arrow_up_small)
 - headless browser ui testing with Casperjs
 
 ### patents transfer system [:arrow_up_small:](#milestone-experiences)
