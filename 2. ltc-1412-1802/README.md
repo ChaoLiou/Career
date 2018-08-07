@@ -16,7 +16,7 @@ analyze in many different types of tables or charts
 # Milestone Experiences
 - [patents transfer system](#patents-transfer-system-arrow_up_small)
 - [patent pdfs download system](#patent-pdfs-download-system-arrow_up_small)
-- setting up projects on `tfs CICD`
+- [setting up projects on `tfs CICD`](#setting-up-projects-on-tfs CICD-arrow_up_small))
 - headless browser ui testing with Casperjs
 
 ### patents transfer system [:arrow_up_small:](#milestone-experiences)
@@ -56,6 +56,7 @@ analyze in many different types of tables or charts
             |(send email / post json to webhook)                   |
              ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ```
+### patentssetting up projects on `tfs CICD` [:arrow_up_small:](#milestone-experiences)
 ### patent pdfs download system [:arrow_up_small:](#milestone-experiences)
 - it's a system to easily implement the patent pdfs downloading feature for existing projects   
 - on the existing project side, just make user fill the form & click the download button to finish, and post to webapi with informations on server side, then it's all done.
