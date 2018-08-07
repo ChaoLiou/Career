@@ -56,7 +56,7 @@ analyze in many different types of tables or charts
             |(send email / post json to webhook)                   |
              ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ```
-### patentssetting up projects on tfs CICD [:arrow_up_small:](#milestone-experiences)
+### setting up projects on tfs CICD [:arrow_up_small:](#milestone-experiences)
 ### patent pdfs download system [:arrow_up_small:](#milestone-experiences)
 - it's a system to easily implement the patent pdfs downloading feature for existing projects   
 - on the existing project side, just make user fill the form & click the download button to finish, and post to webapi with informations on server side, then it's all done.
