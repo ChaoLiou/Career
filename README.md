@@ -1,7 +1,7 @@
 # Careers
 Chaol's Careers
 
-## Brief Intro (myself)
+## Brief Intro
 - Cha Hao, Liu (you can call me Chaol, sounds like 'KO)
 - born in @Yangmei/Taoyuan, 1992.08.24
 - graduated from @IE/NCYU (@Chiayi), 2014.06
