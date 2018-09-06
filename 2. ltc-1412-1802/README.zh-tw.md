@@ -59,7 +59,7 @@
 ### 將公司專案的 CICD 設定至 tfs [:arrow_up_small:](#里程碑經歷)
 - [tfs cicd notes](https://hackmd.io/s/Bkg9M3LSQ)
 - [Console Application: BuildFailedNotification](https://github.com/ChaoLiou/BuildFailedNotification)
-
+  - 在 tfs CICD 上自訂 Task 執行這程式, 讓 build 失敗之後還能回報.
 ### 專利 PDF 下載系統 [:arrow_up_small:](#里程碑經歷)
 - 這個系統讓公司其他已存在的專案能提供 `專利 PDF 下載`的功能
 - 一個已存在的專案(例如: 網站, browser extension), 只要提供介面讓使用者填資料(email), 再由程式透過 post 把資訊送到 PDF 下載系統 webapi, 就完成了. 
