@@ -61,8 +61,8 @@
 - [Console Application: BuildFailedNotification](https://github.com/ChaoLiou/BuildFailedNotification)
 
 ### 專利 PDF 下載系統 [:arrow_up_small:](#里程碑經歷)
-- 這個系統能很簡單就能讓公司其他已存在的專案提供 專利 PDF 下載的功能
-- 在一個已存在的專案這邊, 只要提供介面讓使用者填好表格並按下下載, 程式透過 post 並把資訊也都帶上 送到 下載系統的 webapi, 這樣就大功告成了. 
+- 這個系統讓公司其他已存在的專案能提供 `專利 PDF 下載`的功能
+- 一個已存在的專案(例如: 網站, browser extension), 只要提供介面讓使用者填資料(email), 再由程式透過 post 把資訊送到 PDF 下載系統 webapi, 就完成了. 
 ```         
                                                   check the task is finished & gather the progress info then return
                                                     & generate the zip download link
