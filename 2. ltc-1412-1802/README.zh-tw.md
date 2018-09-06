@@ -1,6 +1,6 @@
 # 簡略介紹
 - :office: : `LearningTech` (`Innovue` now) @Pingzhen/Taoyuan
-- :construction_worker: : Software Engineer/Junior Fullstack Developer, 14.12 - 18.02
+- :construction_worker: : Software Engineer/Junior Fullstack Developer, 2014.12 - 2018.02
 - 維護 2 個專案, 並開發新功能 (2 人團隊)
   - 一個是專利檢索與檢視的網站平台
   - 另一個不只是檢索與檢視, 還能下載儲存到自己的線上專案裡, 再透過多種表格與圖表進一步分析
