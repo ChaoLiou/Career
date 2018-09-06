@@ -2,16 +2,16 @@
 - :office: : `LearningTech` (`Innovue` now) @Pingzhen/Taoyuan
 - :construction_worker: : Software Engineer/Junior Fullstack Developer, 2014.12 - 2018.02
 - maintain 2 projects and develop new features (2 men group)
-  - one is a website for searching & viewing patents 
-  - another one is a website not only for searching & viewing patents, but also download them to your own project to
-analyze in many different types of tables or charts  
-- design and maintain `patents transfer system`
-  - * transfer the patent which is the feeds for searching on websites, from sgml/xml/json to database)
-- sometimes assist other developers' projects to implement customized features (3-4 men group)
+  - one is a website for `searching & viewing patents` 
+  - another one is also a website not only for `searching & viewing patents`, but also `export them to your own project online` to
+analyze them with tables or charts
+- renew and maintain `patents transfer system`
+  - * transfer the patents which are the feeds for websites, from sgml/xml/json files to table in database)
+- assist other developers' projects to implement new & customized features (3-4 men group)
 - experience tags
-  - `asp.net`, `asp.net mvc`, `webservice, webapi`, `ado.net, linq2sql`, `css/less`, `css/bootstrap`, `js/knockoutjs`, `js/jquery`
+  - `asp.net`, `asp.net mvc`, `webservice, webapi`, `ado.net, linq2sql`, `css/less`, `css/bootstrap`, `js/jquery`
   - `MS SQL`, `IIS`
-  - `regular expression`, `xml, sgml`, `manipulate archive(zip, gz, tar)`
+  - `regular expression`, `xml, sgml`, `manipulate archive(zip, gz, tar) with .net`
 
 # Milestone Experiences
 - [patents transfer system](#patents-transfer-system-arrow_up_small)
@@ -20,11 +20,11 @@ analyze in many different types of tables or charts
 - headless browser ui testing with Casperjs
 
 ### patents transfer system [:arrow_up_small:](#milestone-experiences)
-- it's a system able to transfer patent informations from [xmls inside a archive] to [rows in database/tables] 
-- pros against orignal one (why did I repalce the old system with this?): 
-  - same design pattern for every patent source of the organizations/governments
-  - will be able to debug clearly and easily implement new patent source 
-  - threshold knowledge is really low for new manipulators
+- it's a system able to transfer patents informations from [files inside archives] to [rows in database/tables] 
+- why did I repalce the old system with this?(what's the pros?)
+  - create a design pattern for every new patent source of the organizations/governments
+  - will be able to debug more clearly and easily to implement new patent source for other people
+  - threshold knowledge is really low for new manipulators(dispart big features into small pieces)
 ```
  __________________________________________
 |Offical / Source Site released new patents| 
@@ -32,18 +32,18 @@ analyze in many different types of tables or charts
  ''''''''''''''''''''''''''''''''''''''''''
                 |
                 V
- _______________________________________________      A______________________________________________________________________
-|download: schedulely / manual input to activate| -> |check consistent between the number of files and the number they record|
-|(download archive: .zip, .gz.tar, .rar)        |    |(the records may be from index.lst, .csv or .xls,                      | 
- '''''''''''''''''''''''''''''''''''''''''''''''     | even do archive crc checksum to match the checksum in .txt they gave) |
-                                                      ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+ _______________________________________________      A__________________________________________________________________________
+|download: schedulely / manual input to activate| -> |check consistent between the number of files and the number they record    |
+|(download archive: .zip, .gz.tar, .rar)        |    |(the records may be from index.lst, .csv or .xls,                          | 
+ '''''''''''''''''''''''''''''''''''''''''''''''     | even do archive crc checksum to match the checksum in .txt given by them) |
+                                                      '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
                                                       / [pass] or [reject then report]                        ______  
                                                      V                                                      /  loop  \
              B_____________________________________________________________________________________________V__        |
             |1. read contents(xml, sgml): extract / just read every entry in the archive from stream to string|_____ /
             |2. sgml to xml(.dtd) / xml -> xpath -> tag -> attribute & value -> fill the model class          |
              '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-                              | a model list and ready to database ___
+                              | a model list and ready to database____
                               V                                  /loop\
              C__________________________________________________V_     |
             |sql bulk copy to insert rows to table several times  |___/
