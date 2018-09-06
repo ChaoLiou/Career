@@ -1,6 +1,6 @@
 # Brief Intro
 - :office: : `LearningTech` (`Innovue` now) @Pingzhen/Taoyuan
-- :construction_worker: : Software Engineer/Junior Fullstack Developer, 14.12 - 18.02
+- :construction_worker: : Software Engineer/Junior Fullstack Developer, 2014.12 - 2018.02
 - maintain 2 projects and develop new features (2 men group)
   - one is a website for searching & viewing patents 
   - another one is a website not only for searching & viewing patents, but also download them to your own project to
