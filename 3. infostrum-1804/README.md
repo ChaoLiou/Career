@@ -32,10 +32,11 @@
 |xth week|tasks|tags|
 |:-|:-|:-|
 |1st(03)|[feature] Change the chart import feature from **blocking** to **async** while importing file. Support the analysis chart as well. <br>[feature] Change the login process from **async** to **blocking** including the server connecting process.|`c#`, `winform`, `async-await`|
-|2nd(10)|**[assistance]** Create a SPA using **Vue.js** for financial news.|`vue`, `spa`|
+|2nd(10)|**[assistance]** Create a SPA using **Vue.js** for financial news.([Private Repo](https://github.com/ChaoLiou/FinancialNews))|`vue`, `spa`|
 |3rd(17)|[bug] Take too long to load the preference form for the first time.<br>**[assistance]** add new components to the SPA for financial news, and fix some RWD adjustments.|`c#`, `winform`, `vue`, `spa`, `rwd`|
 |4th(23)|**[contribution]** Create a **C#** console app to generate htmls with meta-datas for **rich link previews** on LINE.|`c#`, `meta-data`, `rich-link-preview`|
 |5th(30)|-|
+
 ## August
 |xth week|tasks|tags|
 |:-|:-|:-|
