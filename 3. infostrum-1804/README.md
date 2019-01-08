@@ -23,7 +23,7 @@
 ## June
 |xth week|tasks|tags|
 |:-|:-|:-|
-|1st(04)|[feature] Draw chart with import file(3 types formats) - Include the library to the main project and implement the features.|`c#`, `winform`|
+|1st(04)|[feature] Draw chart with import file(3 types formats) - Include the library to the main project and implement the features.[Private Repo](https://github.com/ChaoLiou/ChartData)|`c#`, `winform`|
 |2nd(11)|[bug] Doesn't record the form preferences(minimized window) **before reloading and logging out**.<br>[feature] change the chart title and the legend after importing file.|`c#`, `winform`|
 |3rd(19)|**[contribution]** For some web app projects having older versions, merge them into one by different branch.|`git`, `gitea`|
 |4th(26)|-|
