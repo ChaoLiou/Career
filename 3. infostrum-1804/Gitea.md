@@ -1,6 +1,6 @@
 # Gitea
 
-![](./gitea.PNG)
+![](./infostrumxgitea.PNG)
 
 ## Information
 - The Gitea server is running on `x.x.x.x` which is a `CentOS/Linux` OS sytstem, and we use `Docker` to run a container with Gitea image, then host the web server.
