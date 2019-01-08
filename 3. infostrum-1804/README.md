@@ -50,7 +50,7 @@
 |:-|:-|:-|
 |1st(03)|**[assistance]** Let the financial news SPA support IE10(all of above) - hex color notation(8->6), `$.ajax` instead of `fetch`, polyfill the `Object.assign` method, and don't use arrow function.<br>**[assistance]** Resize the iframe(the financial news SPA) when the iframe content changes.<br>**[contribution]** Create a **C#** console app through the **sql database** API to generate documents(`.md`), including stored procedures, table & function: names, arguments, columns and dependencies.|`vue`, `spa`, `ie10-aoa`, `polyfill`, `c#`, `ms-sql`|
 |2nd(10)|[bug] The dot(`.`) button on the numpad will be the comma(`,`) button in `en_ID` locale, so a parsing error occurs(in **Objective-C**).|`iOS`,`objective-c`|
-|3rd(17)|[bug] The dot(`.`) will be the comma(`,`) in `en_ID` locale while parsing chart data, so the chart got borken(in **Objective-C**).<br>**[contribution]** Create a **C#** console app to crawl the feeds of the financial news SPA from [dailyfx](https://www.dailyfx.com/calendar?ref=TopNav) and then export the `.csv` file.|`iOS`, `objective-c`, `c#`, `crawling`|
+|3rd(17)|[bug] The dot(`.`) will be the comma(`,`) in `en_ID` locale while parsing chart data, so the chart got borken(in **Objective-C**).<br>**[contribution]** Create a **C#** console app to crawl the feeds of the financial news SPA from [dailyfx](https://www.dailyfx.com/calendar?ref=TopNav) and then export the `.csv` file([Public Repo](https://github.com/ChaoLiou/FinancialNewsCrawler)).|`iOS`, `objective-c`, `c#`, `crawling`|
 |4th(26)|**[contribution]** Self-host [CodiMD](https://github.com/hackmdio/codimd) with CodiMD **docker-compose.yml** and spread the **Markdown Syntax** to everyone(not only IT).|`codimd`, `docker-compose`, `markdown`|
 
 ## October 
