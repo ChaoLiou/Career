@@ -18,7 +18,7 @@
 |2nd(07)|[feature] Change the login process from **async** to **blocking**.|`c#`, `winform`, `async-await`|
 |3rd(14)|[bug] Doesn't record the form preferences(minimized window) **before switching account**.|`c#`, `winform`|
 |4th(23)|[feature] Draw chart with import file(3 types formats) - Create a library project with unit test.|`c#`, `winform`, `unit-test`|
-|5th(29)|**[contribution]** Introduce [Git](https://git-scm.com/) with my [slides](https://hackmd.io/p/ryHrIEaJX#/9) to the team.<br>**[contribution]** Self-host [Gitea](https://gitea.io/zh-tw/) service with Gitea **docker image**.<br> **[contribution]** Sync(using script) repos both FTP and Gitea.<br>**[contribution]** For other projects using `svn`, create new repos on Gitea.|`git`, `gitea`, `docker`, `ftp`, `svn`|
+|5th(29)|**[contribution]** Introduce [Git](https://git-scm.com/) with my [slides](https://hackmd.io/p/ryHrIEaJX#/9) to the team.<br>**[contribution]** Self-host [Gitea](https://gitea.io/zh-tw/) service with Gitea **docker image**([MyDoc](../Gitea.md)).<br> **[contribution]** Sync(using script) repos both FTP and Gitea.<br>**[contribution]** For other projects using `svn`, create new repos on Gitea.|`git`, `gitea`, `docker`, `ftp`, `svn`|
 
 ## June
 |xth week|tasks|tags|
