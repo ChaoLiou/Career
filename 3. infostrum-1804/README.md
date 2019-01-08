@@ -14,7 +14,7 @@
 ## May
 |xth week|tasks|tags|
 |:-|:-|:-|
-|1st(02)|[feature] Use **Telerik** grid instead of **Dapfor** one.|`c#`, `winform`|
+|1st(02)|[feature] Use [**Telerik**](https://www.telerik.com/products/winforms.aspx) grid instead of [**Dapfor**](http://www.dapfor.com/en/net-suite/net-grid) one.|`c#`, `winform`|
 |2nd(07)|[feature] Change the login process from **async** to **blocking**.|`c#`, `winform`, `async-await`|
 |3rd(14)|[bug] Doesn't record the form preferences(minimized window) **before switching account**.|`c#`, `winform`|
 |4th(23)|[feature] Draw chart with import file(3 types formats) - Create a library project with unit test.|`c#`, `winform`, `unit-test`|
