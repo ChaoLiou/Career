@@ -32,8 +32,8 @@
 |xth week|tasks|tags|
 |:-|:-|:-|
 |1st(03)|[feature] Change the chart import feature from **blocking** to **async** while importing file. Support the analysis chart as well. <br>[feature] Change the login process from **async** to **blocking** including the server connecting process.|`c#`, `winform`, `async-await`|
-|2nd(10)|**[assistance]** Create a SPA using **Vue.js** for financial news.([Private Repo](https://github.com/ChaoLiou/FinancialNews))|`vue`, `spa`|
-|3rd(17)|[bug] Take too long to load the preference form for the first time.<br>**[assistance]** add new components to the SPA for financial news, and fix some RWD adjustments.|`c#`, `winform`, `vue`, `spa`, `rwd`|
+|2nd(10)|**[assistance]** Create a **Vue.js** Web Page for financial news.([Private Repo](https://github.com/ChaoLiou/FinancialNews))|`vue`|
+|3rd(17)|[bug] Take too long to load the preference form for the first time.<br>**[assistance]** add new components to the financial news web page, and fix some RWD adjustments.|`c#`, `winform`, `vue`, `rwd`|
 |4th(23)|**[contribution]** Create a **C#** console app to generate htmls with meta-datas for **rich link previews** on LINE.([Public Repo](https://github.com/ChaoLiou/RichLinkPreviewMiddler))|`c#`, `meta-data`, `rich-link-preview`|
 |5th(30)|-|
 
@@ -48,9 +48,9 @@
 ## September
 |xth week|tasks|tags|
 |:-|:-|:-|
-|1st(03)|**[assistance]** Let the financial news SPA support IE10(all of above) - hex color notation(8->6), `$.ajax` instead of `fetch`, polyfill the `Object.assign` method, and don't use arrow function.<br>**[assistance]** Resize the iframe(the financial news SPA) when the iframe content changes.([Code Block](https://github.com/ChaoLiou/FinancialNews/blob/8d69bc4c90eb93e4e7edb6e10f06b1ab4a3d35c5/index.js#L27-L51))<br>**[contribution]** Create a **C#** console app through the **sql database** API to generate documents(`.md`), including stored procedures, table & function: names, arguments, columns and dependencies.([Public Repo](https://github.com/ChaoLiou/DBDocTemplateGenerator))|`vue`, `spa`, `ie10-aoa`, `polyfill`, `c#`, `ms-sql`|
+|1st(03)|**[assistance]** Let the financial news web page support IE10(all of above) - hex color notation(8->6), `$.ajax` instead of `fetch`, polyfill the `Object.assign` method, and don't use arrow function.<br>**[assistance]** Resize the iframe when the iframe content changes.([Code Block](https://github.com/ChaoLiou/FinancialNews/blob/8d69bc4c90eb93e4e7edb6e10f06b1ab4a3d35c5/index.js#L27-L51))<br>**[contribution]** Create a **C#** console app through the **sql database** API to generate documents(`.md`), including stored procedures, table & function: names, arguments, columns and dependencies.([Public Repo](https://github.com/ChaoLiou/DBDocTemplateGenerator))|`vue`, `ie10-aoa`, `polyfill`, `c#`, `ms-sql`|
 |2nd(10)|[bug] The dot(`.`) button on the numpad will be the comma(`,`) button in `en_ID` locale, so a parsing error occurs(in **Objective-C**).|`iOS`,`objective-c`|
-|3rd(17)|[bug] The dot(`.`) will be the comma(`,`) in `en_ID` locale while parsing chart data, so the chart got borken(in **Objective-C**).<br>**[contribution]** Create a **C#** console app to crawl the feeds of the financial news SPA from [dailyfx](https://www.dailyfx.com/calendar?ref=TopNav) and then export the `.csv` file.([Public Repo](https://github.com/ChaoLiou/FinancialNewsCrawler))|`iOS`, `objective-c`, `c#`, `crawling`|
+|3rd(17)|[bug] The dot(`.`) will be the comma(`,`) in `en_ID` locale while parsing chart data, so the chart got borken(in **Objective-C**).<br>**[contribution]** Create a **C#** console app to crawl the feeds of the financial news web page from [dailyfx](https://www.dailyfx.com/calendar?ref=TopNav) and then export the `.csv` file.([Public Repo](https://github.com/ChaoLiou/FinancialNewsCrawler))|`iOS`, `objective-c`, `c#`, `crawling`|
 |4th(26)|**[contribution]** Self-host [CodiMD](https://github.com/hackmdio/codimd) with CodiMD **docker-compose.yml** and spread the **Markdown Syntax** to everyone(not only IT).([Home Page Pic](./codimd.PNG))|`codimd`, `docker-compose`, `markdown`|
 
 ## October 
@@ -75,5 +75,5 @@
 |:-|:-|:-|
 |1st(03)|**[contribution]** Add a new leave kind for bussiness trip and a new route for complement leaves to the **LOASystem**.|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`|
 |2nd(10)|[feature] set bottom ToolbarPlacement on **Xamarin** Android Device.|`c#`, `xamarin`|
-|3rd(17)|[bug] Throw an exception about visual styles.<br>**[contribution]** Add a feature to enable/disable employees, and delete employee if disabled, also with a confrim window to check again.|`c#`, `winform`, `vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`|
+|3rd(17)|[bug] Throw an exception about visual styles.<br>**[contribution]** Add a feature to enable/disable employees, and delete employee if disabled, also with a confrim window to check again.|`c#`, `winform`, `vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`|
 |4th(24)|**[contribution]** Add a feature to take annual leaves for the next annual(pre-annual), and when the time comes, the pre-annual leaves will be moved to annual leaves, then initialize.|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`|
