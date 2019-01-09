@@ -59,7 +59,7 @@
 |1st(01)|-||
 |2nd(08)|-||
 |3rd(15)|[feature] Add the chart zooming in/out with the 3-rd party called `Core-plot`, using its `Delegation`(in **Objective-C**).|`objective-c`, `delegation`, `core-plot`|
-|4th(22)|**[contribution]** Create a **LOASystem**(Leave of Absence System) using [VENoM-Docker](https://github.com/jamesaud/VENoM-Docker) for leaves taking and signing by manager .|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docker-compose`, `loasystem`|
+|4th(22)|**[contribution]** Create a **LOASystem**(Leave of Absence System) using [VENoM-Docker](https://github.com/jamesaud/VENoM-Docker) for leaves taking and signing by manager .|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docker-compose`, `vue-router`|
 |5th(29)|[feature] Change the most appropriate y range with the chart data(find out the max and min of y in the x range) while scrolling x-axis, and fix the position of the current price label(in **Objective-C**).|`iOS`, `objective-c`|
 
 ## November
@@ -73,7 +73,7 @@
 ## December
 |xth week|tasks|tags|
 |:-|:-|:-|
-|1st(03)|**[contribution]** Add a new leave kind for bussiness trip and a new route for complement leaves to the **LOASystem**.|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`|
+|1st(03)|**[contribution]** Add a new leave kind for bussiness trip and a new route for complement leaves to the **LOASystem**.|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`|
 |2nd(10)|[feature] set bottom ToolbarPlacement on **Xamarin** Android Device.|`c#`, `xamarin`|
 |3rd(17)|[bug] Throw an exception about visual styles.<br>**[contribution]** Add a feature to enable/disable employees, and delete employee if disabled, also with a confrim window to check again.|`c#`, `winform`, `vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`|
-|4th(24)|**[contribution]** Add a feature to take annual leaves for the next annual(pre-annual), and when the time comes, the pre-annual leaves will be moved to annual leaves, then initialize.|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`|
+|4th(24)|**[contribution]** Add a feature to take annual leaves for the next annual(pre-annual), and when the time comes, the pre-annual leaves will be moved to annual leaves, then initialize.|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`|
