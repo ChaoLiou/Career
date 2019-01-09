@@ -11,7 +11,7 @@ Chaol's Careers
     - [zh-tw ver](https://github.com/ChaoLiou/Careers/blob/master/2.%20ltc-1412-1802/README.zh-tw.md)
   - [infostrum](https://github.com/ChaoLiou/Careers/tree/master/3.%20infostrum-1804), 2018.04- 
 
-## Other repo for fun
+## Other repos
 - [UNSQLQ](https://github.com/ChaoLiou/UNSQLQ)
 - [BrowserBricks](https://github.com/ChaoLiou/BrowserBricks)
 - [PttRealTime](https://github.com/ChaoLiou/PttRealTime)
