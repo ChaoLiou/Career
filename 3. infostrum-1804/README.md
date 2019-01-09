@@ -18,7 +18,7 @@
 |2nd(07)|[feature] Change the login process from **async** to **blocking**.|`c#`, `winform`, `async-await`|
 |3rd(14)|[bug] Doesn't record the form preferences(minimized window) **before switching account**.|`c#`, `winform`|
 |4th(23)|[feature] Draw chart with import file(3 types formats) - Create a library project with unit test.|`c#`, `winform`, `unit-test`|
-|5th(29)|**[contribution]** Introduce [Git](https://git-scm.com/) with my [slides](https://hackmd.io/p/ryHrIEaJX#/9) to the team.<br>**[contribution]** Self-host [Gitea](https://gitea.io/zh-tw/) service with Gitea **docker image**([MyDoc](./Gitea.md)).<br> **[contribution]** Sync(using script) repos both FTP and Gitea([MyDoc](./Sync@FTP2Gitea.md)).<br>**[contribution]** For other projects using `svn`, create new repos on Gitea.|`git`, `gitea`, `docker`, `ftp`, `svn`|
+|5th(29)|**[contribution]** Introduce [Git](https://git-scm.com/) with my [slides](https://hackmd.io/p/ryHrIEaJX#/9) to the team.([Git Advanced](https://github.com/ChaoLiou/HowGitWorks))<br>**[contribution]** Self-host [Gitea](https://gitea.io/zh-tw/) service with Gitea **docker image**([MyDoc](./Gitea.md)).<br> **[contribution]** Sync(using script) repos both FTP and Gitea([MyDoc](./Sync@FTP2Gitea.md)).<br>**[contribution]** For other projects using `svn`, create new repos on Gitea.|`git`, `gitea`, `docker`, `ftp`, `svn`|
 
 ## June
 |xth week|tasks|tags|
@@ -51,7 +51,7 @@
 |1st(03)|**[assistance]** Let the financial news web page support IE10(all of above) - hex color notation(8->6), `$.ajax` instead of `fetch`, polyfill the `Object.assign` method, and don't use arrow function.<br>**[assistance]** Resize the iframe when the iframe content changes.([Code Block](https://github.com/ChaoLiou/FinancialNews/blob/8d69bc4c90eb93e4e7edb6e10f06b1ab4a3d35c5/index.js#L27-L51))<br>**[contribution]** Create a **C#** console app through the **sql database** API to generate documents(`.md`), including stored procedures, table & function: names, arguments, columns and dependencies.([Public Repo](https://github.com/ChaoLiou/DBDocTemplateGenerator))|`vue`, `ie10-aoa`, `polyfill`, `c#`, `ms-sql`|
 |2nd(10)|[bug] The dot(`.`) button on the numpad will be the comma(`,`) button in `en_ID` locale, so a parsing error occurs(in **Objective-C**).|`iOS`,`objective-c`|
 |3rd(17)|[bug] The dot(`.`) will be the comma(`,`) in `en_ID` locale while parsing chart data, so the chart got borken(in **Objective-C**).<br>**[contribution]** Create a **C#** console app to crawl the feeds of the financial news web page from [dailyfx](https://www.dailyfx.com/calendar?ref=TopNav) and then export the `.csv` file.([Public Repo](https://github.com/ChaoLiou/FinancialNewsCrawler))|`iOS`, `objective-c`, `c#`, `crawling`|
-|4th(26)|**[contribution]** Self-host [CodiMD](https://github.com/hackmdio/codimd) with CodiMD **docker-compose.yml** and spread the **Markdown Syntax** to everyone(not only IT).([Home Page Pic](./codimd.PNG))|`codimd`, `docker-compose`, `markdown`|
+|4th(26)|**[contribution]** Self-host [CodiMD](https://github.com/hackmdio/codimd) with CodiMD **docker-compose.yml** and spread the **Markdown Syntax** to everyone(not only IT).([Home Page Pic](./codimd.PNG), and the [Markdown Syntax](https://github.com/ChaoLiou/Markdown))|`codimd`, `docker-compose`, `markdown`|
 
 ## October 
 |xth week|tasks|tags|
