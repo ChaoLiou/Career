@@ -10,3 +10,11 @@ Chaol's Careers
   - [learningtech](https://github.com/ChaoLiou/Careers/tree/master/2.%20ltc-1412-1802), 2014.12-2018.02 (3 years & 2 months)
     - [zh-tw ver](https://github.com/ChaoLiou/Careers/blob/master/2.%20ltc-1412-1802/README.zh-tw.md)
   - [infostrum](https://github.com/ChaoLiou/Careers/tree/master/3.%20infostrum-1804), 2018.04- 
+
+## Others repo for fun
+- [UNSQLQ](https://github.com/ChaoLiou/UNSQLQ)
+- [BrowserBricks](https://github.com/ChaoLiou/BrowserBricks)
+- [PttRealTime](https://github.com/ChaoLiou/PttRealTime)
+- [TechNewsCrawler](https://github.com/ChaoLiou/TechNewsCrawler)
+- [HRCenter](https://github.com/ChaoLiou/HRCenter)
+- [mit.Jobs](https://github.com/ChaoLiou/mit.Jobs)
