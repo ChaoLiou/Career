@@ -68,7 +68,7 @@
 |1st(05)|[feature-bug] The analysis chart will be overlapping on the main chart(in **Objective-C**).<br>[feature-bug] The moving horizontally event is overrided between the crosshair moving and the chart x-axis scrolling(in **Objective-C**).<br>[feature-bug] The position of date label will move while changing y range(in **Objective-C**).|`iOS`, `objective-c`|
 |2nd(12)|**[assistance]** Set up the **Xamarin** environment.|`c#`, `xamarin`|
 |3rd(19)|[feature] Let the analysis chart is always on the screen(in **Objective-C**).|`iOS`, `objective-c`|
-|4th(26)|[feature] Rearrange the position of the crosshair labels while zomming(in **Objective-C**).|`iOS`, `objective-c`|
+|4th(26)|[feature] Rearrange the position of the crosshair labels while zooming(in **Objective-C**).|`iOS`, `objective-c`|
 
 ## December
 |xth week|tasks|tags|
