@@ -1,13 +1,13 @@
 # Brief Intro
-- :office: : `LearningTech` (`Innovue` now) @Pingzhen/Taoyuan
+- :office: : `LearningTech` @Pingzhen/Taoyuan
 - :construction_worker: : Software Engineer/Junior Fullstack Developer, 2014.12 - 2018.02
 - maintain 2 projects and develop new features (2 men group)
   - one is a website for `searching & viewing patents` 
-  - another one is also a website not only for `searching & viewing patents`, but also `export them to your own project online` to
+  - another one is also a website not only for `searching & viewing patents`, but also `save to own account` to
 analyze them with tables or charts
 - renew and maintain `patents transfer system`
-  - * transfer the patents which are the feeds for websites, from sgml/xml/json files to table in database)
-- assist other developers' projects to implement new & customized features (3-4 men group)
+  - * transfer the patents which are feeds for searching, from html/sgml/xml/json formats to MS-SQL)
+- assist other projects to implement new & customized features (3-4 men group)
 - experience tags
   - `asp.net`, `asp.net mvc`, `webservice, webapi`, `ado.net, linq2sql`, `css/less`, `css/bootstrap`, `js/jquery`
   - `MS SQL`, `IIS`
@@ -19,7 +19,7 @@ analyze them with tables or charts
 - [setting up projects on tfs CICD](#setting-up-projects-on-tfs-cicd-arrow_up_small)
 - headless browser ui testing with Casperjs
 
-### patents transfer system [:arrow_up_small:](#milestone-experiences)
+## patents transfer system [:arrow_up_small:](#milestone-experiences)
 - it's a system able to transfer patents informations from [files inside archives] to [rows in database/tables] 
 - why did I repalce the old system with this?(what's the pros?)
   - create a design pattern for every new patent source of the organizations/governments
@@ -56,11 +56,11 @@ analyze them with tables or charts
             |(send email / post json to webhook)                   |
              ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ```
-### setting up projects on tfs CICD [:arrow_up_small:](#milestone-experiences)
+## setting up projects on tfs CICD [:arrow_up_small:](#milestone-experiences)
 - [tfs cicd notes](https://hackmd.io/s/Bkg9M3LSQ)
 - [Console Application: BuildFailedNotification](https://github.com/ChaoLiou/BuildFailedNotification)
   - customize a Task to execute this application on tfs CICD, for reporting the failed builds.
-### patent pdfs download system [:arrow_up_small:](#milestone-experiences)
+## patent pdfs download system [:arrow_up_small:](#milestone-experiences)
 - it's a system to easily implement the patent pdfs downloading feature for existing projects   
 - on the existing project side, just make user fill the form & click the download button to finish, and post to webapi with informations on server side, then it's all done.
 ```         
