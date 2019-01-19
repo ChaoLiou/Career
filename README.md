@@ -12,7 +12,7 @@ Chaol's Careers
     - [zh-tw ver](/2.%20ltc-1412-1802/README.zh-tw.md)
   - [infostrum](/3.%20infostrum-1804), 2018.04- 
 
-## Other Repos(in casual)
+## Other Repos(casual mode)
 - [UNSQLQ](https://github.com/ChaoLiou/UNSQLQ)
 - [BrowserBricks](https://github.com/ChaoLiou/BrowserBricks)
 - [PttRealTime](https://github.com/ChaoLiou/PttRealTime)
