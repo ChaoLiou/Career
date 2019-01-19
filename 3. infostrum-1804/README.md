@@ -8,9 +8,6 @@
 ## April 
 |xth week|tasks|
 |:-|:-|
-|1st|-|
-|2nd|-|
-|3rd|-|
 |4th(23)|**Start to work**|
 
 ## May
