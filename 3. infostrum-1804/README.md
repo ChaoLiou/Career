@@ -76,3 +76,10 @@
 |2nd(10)|[feature] Set bottom ToolbarPlacement on **Xamarin** Android Device.|`c#`, `xamarin`|
 |3rd(17)|[bug] Throw an exception about visual styles.<br>**[contribution]** Add a feature to enable/disable employees, and delete employee if disabled, also with a confrim window to check again.|`c#`, `winform`, `vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`, `csr`, `vuetify`|
 |4th(24)|**[contribution]** Add a feature to take annual leaves for the next annual(called pre-annual), and when the time comes, the pre-annual leaves will be moved to annual leaves, then initialize to empty.|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`, `csr`, `vuetify`|
+
+## January
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(07)|-|
+|2nd(14)|LOASystem: email notification on leave taking & signing|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`, `csr`, `vuetify`, `nodemailer`|
+|3rd(21)|-|
