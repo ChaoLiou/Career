@@ -81,5 +81,5 @@
 |xth week|tasks|tags|
 |:-|:-|:-|
 |1st(07)|-|
-|2nd(14)|LOASystem: email notification on leave taking & signing|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`, `csr`, `vuetify`, `nodemailer`|
+|2nd(14)|**[contribution]** LOASystem: email notification on leave taking & signing|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`, `csr`, `vuetify`, `nodemailer`|
 |3rd(21)|-|
