@@ -85,7 +85,7 @@
 |1st(07)|-|
 |2nd(14)|**[contribution]** LOASystem: email notification on leave taking & signing|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`, `csr`, `vuetify`, `nodemailer`|
 |3rd(21)|-|
-|4th(28)|-|
+|4th(28)|[bug] LOASystem: synchronize data between employee and singer|`express`, `nodejs`, `mongodb`|
 
 ### February
 |xth week|tasks|tags|
