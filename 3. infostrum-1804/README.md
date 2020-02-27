@@ -86,3 +86,94 @@
 |2nd(14)|**[contribution]** LOASystem: email notification on leave taking & signing|`vue`, `express`, `nodejs`, `mongodb`, `docker`, `docer-compose`, `vue-router`, `csr`, `vuetify`, `nodemailer`|
 |3rd(21)|-|
 |4th(28)|-|
+
+### February
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(11)||
+|2nd(18)||
+|3rd(25)||
+
+### March
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(4)||
+|2nd(11)||
+|3rd(18)||
+|4th(25)||
+
+### April
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(1)||
+|2nd(8)||
+|3rd(15)||
+|4th(22)||
+|5th(29)||
+
+### May
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(6)||
+|2nd(13)||
+|3rd(20)||
+|4th(27)||
+
+### June
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(4)||
+|2nd(10)||
+|3rd(17)||
+|4th(24)||
+
+### July
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(1)||
+|2nd(8)||
+|3rd(15)||
+|4th(22)||
+|5th(29)||
+
+### August
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(5)||
+|2nd(12)||
+|3rd(19)||
+|4th(26)||
+
+### September
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(2)||
+|2nd(9)||
+|3rd(19)||
+|4th(26)||
+
+### October
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(1)||
+|2nd(7)||
+|3rd(14)||
+|4th(21)||
+|5th(28)||
+
+### November
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(4)||
+|2nd(11)||
+|3rd(18)||
+|4th(26)||
+
+### December
+|xth week|tasks|tags|
+|:-|:-|:-|
+|1st(2)||
+|2nd(10)||
+|3rd(16)||
+|4th(23)||
+|5th(30)||
