@@ -26,10 +26,10 @@ analyze on tables or charts
   - more clearly and easily to maintain or implement new patent source for developers
   - low threshold knowledge for new manipulators(dispart big features into small pieces)
 ```
- __________________________________________
+ ___________________________________________
 |Official / Source Site released new patents| 
-|(on average, twice a week each: isu/pub)  |
- ''''''''''''''''''''''''''''''''''''''''''
+|(on average, twice a week each: isu/pub)   |
+ '''''''''''''''''''''''''''''''''''''''''''
                 |
                 V
  _______________________________________________      A__________________________________________________________________________
