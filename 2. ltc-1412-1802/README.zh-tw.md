@@ -21,14 +21,14 @@
 ## 專利轉置系統 [:arrow_up_small:](#里程碑經歷)
 - 這個系統能轉置專利資訊從 `壓縮檔裡的檔案` 到 `資料庫的資料集`
 - 為何我要把舊系統替換掉? 
-  - 即可使用相同的 design pattern 針對不同的專利來源實作 (專利來源: 可能是政府, 如 us, tw, cn,... 或組織, 如 ep, wo, docdb,...)
-  - 未來 debug 問題也能夠更清晰, 更輕鬆
-  - 負責維護的新進人員所需的知識門檻較低
+  - 即可使用相同的 pattern 針對不同的專利來源實作 (專利來源: 可能是各國政府, 如 us, tw, cn,... 或組織, 如 ep, wo, docdb,...)
+  - 未來在維護上也能夠更清晰, 更輕鬆
+  - 負責的操作人員所需的知識門檻較低
 ```
- __________________________________________
-|Offical / Source Site released new patents| 
-|(on average, twice a week each: isu/pub)  |
- ''''''''''''''''''''''''''''''''''''''''''
+ ___________________________________________
+|Official / Source Site released new patents| 
+|(on average, twice a week each: isu/pub)   |
+ '''''''''''''''''''''''''''''''''''''''''''
                 |
                 V
  _______________________________________________      A______________________________________________________________________
@@ -42,7 +42,7 @@
             |1. read contents(xml, sgml): extract / just read every entry in the archive from stream to string|_____ /
             |2. sgml to xml(.dtd) / xml -> xpath -> tag -> attribute & value -> fill the model class          |
              '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-                              | a model list and ready to database ___
+                              | model list ready                  ___
                               V                                  /loop\
              C__________________________________________________V_     |
             |sql bulk copy to insert rows to table several times  |___/
@@ -56,8 +56,8 @@
              ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ```
 
-## 將公司專案的 CICD 設定至 tfs [:arrow_up_small:](#里程碑經歷)
-- [tfs cicd notes](https://hackmd.io/s/Bkg9M3LSQ)
+## 將公司專案的 CICD 設定至 tfs 上 [:arrow_up_small:](#里程碑經歷)
+- [tfs cicd notes](https://github.com/ChaoLiou/Blog/issues/1)
 - [Console Application: BuildFailedNotification](https://github.com/ChaoLiou/BuildFailedNotification)
   - 在 tfs CICD 上自訂 Task 執行這程式, 讓 build 失敗之後還能回報.
 ## 專利 PDF 下載系統 [:arrow_up_small:](#里程碑經歷)
@@ -70,7 +70,7 @@
 |website|________   /              \ ___________V_________________          |       |worker which prepare pdf/pdfs, then compress|
  '''''''         \ V     post       |pdf download center (webapi) |         |       |them into \{GUID}\xxx.0.zip (window service)|
  ___________      |--------A------->|generate a GUID for this task|         |      //''''''''''''''''''''''''''''''''''''''''''''
-|browser ext|____/ post data:        '''''''''''''''''''''''''''''          |  sql||dependency  | update the same row each pdf done 
+|browser ext|____/ post data:        '''''''''''''''''''''''''''''          |  sql||dependency  | update the status of the row in each pdf to done status
  ''''''''''' ^|    1. which pdf/pdfs     ^  ^   |                         __V______\\___________V_(when all done -> 
              ||    2. who wants          |  |    B---add-new-task-rows-->|download tasks(database)|      update finished & zip path)
              ||_D_while(true)_until_100%_|  |                             ''''''''''''''''''''''''
