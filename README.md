@@ -13,7 +13,8 @@ Chaol's Careers
   - [FineArt](/1.%20fineart-1407-1411), 2014.07-2014.11 (4 months)
   
 - my portfolio(sorted by project scale)
-  - [beanfun! planet website](https://github.com/ChaoLiou/news_frontend_page) & beanfun! planet dashboard website(`vue`, `vuex`, `nuxt`, `nestjs`, `scss`, `styleguidist`, `webpack`, `vue cli`)
+  - [beanfun! planet website](https://github.com/ChaoLiou/news_frontend_page) & beanfun! planet dashboard website
+    - `vue`, `vuex`, `nuxt`, `nestjs`, `scss`, `styleguidist`, `webpack`, `vue cli`, `unit test`
   - leave of absence system(`vue`, `express`, `mongodb`)
   - pets sitting service platform(`vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `mssql`)
   - gaming live stream & forum website(`vue`, `nuxt`)
