@@ -8,9 +8,9 @@ Chaol's Careers
 
 - been employed at(sorted by date in descending order)
   - [Infostrum](/3.%20infostrum-1804), 2018.04- 
-  - [LearningTech](/2.%20ltc-1412-1802), 2014.12-2018.02 (3 years & 2 months)
+  - [LearningTech](/2.%20ltc-1412-1802), 2014.12-2018.02 (3 yrs & 2 mos)
     - [zh-tw ver](/2.%20ltc-1412-1802/README.zh-tw.md)
-  - [FineArt](/1.%20fineart-1407-1411), 2014.07-2014.11 (4 months)
+  - [FineArt](/1.%20fineart-1407-1411), 2014.07-2014.11 (4 mos)
   
 - my portfolio(sorted by project scale)
   - [beanfun! planet website](https://github.com/ChaoLiou/news_frontend_page) & beanfun! planet dashboard website
