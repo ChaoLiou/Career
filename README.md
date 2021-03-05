@@ -13,7 +13,7 @@ Chaol's Careers
   - [FineArt](/1.%20fineart-1407-1411), 2014.07-2014.11 (4 mos)
   
 - my portfolio(sorted by project scale)
-  - [beanfun! planet website](https://github.com/ChaoLiou/news_frontend_page) & beanfun! planet dashboard website
+  - [beanfun! planet website](https://github.com/ChaoLiou/news_frontend_page) & [beanfun! planet dashboard website](https://github.com/ChaoLiou/news_backstage)
     - `vue`, `vuex`, `nuxt`, `nestjs`, `scss`, `styleguidist`, `webpack`, `vue cli`, `unit test`
     - [beanfun! planet website - standalone version](#)
       - [styleguide](#)
