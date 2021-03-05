@@ -20,7 +20,7 @@ Chaol's Careers
         - [styleguide](#)
       - [beanfun! planet dashboard website](#)
         - [swagger](#)
-  - leave of absence system
+  - [leave of absence system](https://github.com/ChaoLiou/LOASystem)
     - `vue`, `express`, `mongodb`
     - standalone version:
       - [leave of absence system](https://chaoliou.github.io/LOASystem/index.html)
