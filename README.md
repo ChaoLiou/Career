@@ -16,6 +16,8 @@ Chaol's Careers
   - [beanfun! planet website](https://github.com/ChaoLiou/news_frontend_page) & beanfun! planet dashboard website
     - `vue`, `vuex`, `nuxt`, `nestjs`, `scss`, `styleguidist`, `webpack`, `vue cli`, `unit test`
     - [beanfun! planet website - standalone version](https://chaolnewsfrontendpage.z7.web.core.windows.net/)
+      - [styleguide](https://chaolnewsfrontendpage.z7.web.core.windows.net/styleguide/)
+    - beanfun! planet dashboard website
   - leave of absence system(`vue`, `express`, `mongodb`)
   - pets sitting service platform(`vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `mssql`)
   - gaming live stream & forum website(`vue`, `nuxt`)
