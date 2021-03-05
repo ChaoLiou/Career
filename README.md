@@ -15,11 +15,15 @@ Chaol's Careers
 - my portfolio(sorted by project scale)
   - [beanfun! planet website](https://github.com/ChaoLiou/news_frontend_page) & beanfun! planet dashboard website
     - `vue`, `vuex`, `nuxt`, `nestjs`, `scss`, `styleguidist`, `webpack`, `vue cli`, `unit test`
-    - [beanfun! planet website - standalone version](#)
-      - [styleguide](#)
-    - [beanfun! planet dashboard website](#)
-      - [swagger](#)
-  - leave of absence system(`vue`, `express`, `mongodb`)
+    - standalone version:
+      - [beanfun! planet website](#)
+        - [styleguide](#)
+      - [beanfun! planet dashboard website](#)
+        - [swagger](#)
+  - leave of absence system
+    - `vue`, `express`, `mongodb`
+    - standalone version:
+      - [leave of absence system](#)
   - pets sitting service platform(`vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `mssql`)
   - gaming live stream & forum website(`vue`, `nuxt`)
   - redeem your serial number web api(`c#`, `asp.net core mvc 5`, `mssql`)
