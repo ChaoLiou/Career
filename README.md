@@ -23,7 +23,7 @@ Chaol's Careers
   - leave of absence system
     - `vue`, `express`, `mongodb`
     - standalone version:
-      - [leave of absence system](#)
+      - [leave of absence system](https://chaoliou.github.io/LOASystem/index.html)
   - pets sitting service platform(`vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `mssql`)
   - gaming live stream & forum website(`vue`, `nuxt`)
   - redeem your serial number web api(`c#`, `asp.net core mvc 5`, `mssql`)
