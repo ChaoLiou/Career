@@ -22,7 +22,7 @@ Chaol's Careers
   - [leave of absence system](https://github.com/ChaoLiou/LOASystem)
     - `vue`, `express`, `mongodb`, `line msg api`, `azure function`, `azure storage:table`, `xlsx-populate`
     - [standalone version](https://chaolloasystem.z7.web.core.windows.net)
-  - pets sitting service platform
+  - pets sitting service platform: [client](https://github.com/ChaoLiou/Pettogether) & [server](https://github.com/ChaoLiou/PettogetherServer)
     - `vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `signalR`, `jwt`, `mssql`, `azure storage:blob/table`, `azure app service`, `azure mssql`
     - [standalone version](https://chaolpettogether.z7.web.core.windows.net)
   - gaming live stream & forum website(`vue`, `nuxt`)
