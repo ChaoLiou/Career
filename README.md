@@ -20,9 +20,11 @@ Chaol's Careers
     - [beanfun! planet dashboard website - standalone version](#)
       - [swagger](#)
   - [leave of absence system](https://github.com/ChaoLiou/LOASystem)
-    - `vue`, `express`, `mongodb`
-    - [standalone version](https://chaoliou.github.io/LOASystem/index.html)
-  - pets sitting service platform(`vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `mssql`)
+    - `vue`, `express`, `mongodb`, `line msg api`, `azure function`, `azure storage:table`, `xlsx-populate`
+    - [standalone version](https://chaolloasystem.z7.web.core.windows.net)
+  - pets sitting service platform
+    - `vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `signalR`, `jwt`, `mssql`, `azure storage:blob/table`, `azure app service`, `azure mssql`
+    - [standalone version](https://chaolpettogether.z7.web.core.windows.net)
   - gaming live stream & forum website(`vue`, `nuxt`)
   - redeem your serial number web api(`c#`, `asp.net core mvc 5`, `mssql`)
   - metatrader handler on socket connection(`mql5`, `c++`)
