@@ -18,7 +18,7 @@ Chaol's Careers
     - beanfun! planet website - standalone version
       - styleguide
     - beanfun! planet dashboard website - standalone version
-      - wagger
+      - swagger
   - [leave of absence system](https://github.com/ChaoLiou/LOASystem)
     - `vue`, `express`, `mongodb`, `line msg api`, `azure function`, `azure storage:table`, `xlsx-populate`
     - [standalone version](https://chaolloasystem.z7.web.core.windows.net)
