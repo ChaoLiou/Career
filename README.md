@@ -15,10 +15,10 @@ Chaol's Careers
 - my portfolio(sorted by project scale)
   - [beanfun! planet website](https://github.com/ChaoLiou/news_frontend_page) & [beanfun! planet dashboard website](https://github.com/ChaoLiou/news_backstage)
     - `vue`, `vuex`, `nuxt`, `nestjs`, `scss`, `styleguidist`, `webpack`, `vue cli`, `unit test`
-    - [beanfun! planet website - standalone version](https://chaolnewsfrontendpage.z7.web.core.windows.net/)
-      - [styleguide](https://chaolnewsfrontendpage.z7.web.core.windows.net/styleguide/)
-    - [beanfun! planet dashboard website - standalone version](https://chaolnewsbackstage.z7.web.core.windows.net/)
-      - [swagger](https://chaolnewsbackstage.z7.web.core.windows.net/api/)
+    - [beanfun! planet website - standalone version](#)
+      - [styleguide](#)
+    - [beanfun! planet dashboard website - standalone version](#)
+      - [swagger](#)
   - [leave of absence system](https://github.com/ChaoLiou/LOASystem)
     - `vue`, `express`, `mongodb`, `line msg api`, `azure function`, `azure storage:table`, `xlsx-populate`
     - [standalone version](https://chaolloasystem.z7.web.core.windows.net)
