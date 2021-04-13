@@ -18,7 +18,7 @@ Chaol's Careers
     - beanfun! planet website - [standalone version](https://chaolnewsfrontendpage.z7.web.core.windows.net/#/)
       - [styleguide](https://chaolnewsfrontendpage.z7.web.core.windows.net/styleguide/)
     - beanfun! planet dashboard website - [standalone version](https://chaolnewsbackstage.z7.web.core.windows.net/)
-      - [swagger go](https://chaolnewsbackstage.z7.web.core.windows.net/api/)
+      - [swagger](https://chaolnewsbackstage.z7.web.core.windows.net/api/)
   - [leave of absence system](https://github.com/ChaoLiou/LOASystem)
     - `vue`, `express`, `mongodb`, `line msg api`, `azure function`, `azure storage:table`, `xlsx-populate`
     - [standalone version](https://chaolloasystem.z7.web.core.windows.net)
