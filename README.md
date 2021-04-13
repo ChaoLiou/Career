@@ -25,7 +25,7 @@ Chaol's Careers
   - pets sitting service platform: [client](https://github.com/ChaoLiou/Pettogether) & [server](https://github.com/ChaoLiou/PettogetherServer)
     - `vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `signalR`, `jwt`, `mssql`, `azure storage:blob/table`, `azure app service`, `azure mssql`
     - [standalone version](https://chaolpettogether.z7.web.core.windows.net)
-  - gaming live stream & forum website(`vue`, `nuxt`) - (standalone version](https://chaolqsdj.z7.web.core.windows.net/#/)
+  - gaming live stream & forum website(`vue`, `nuxt`) - [standalone version](https://chaolqsdj.z7.web.core.windows.net/#/)
   - redeem your serial number web api(`c#`, `asp.net core mvc 5`, `mssql`)
   - metatrader handler on socket connection(`mql5`, `c++`)
   - financial news crawling tool(`c#`, `.net`)
