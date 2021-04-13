@@ -1,5 +1,24 @@
-# Brief Intro	## 2020
+# Brief Intro
 - :office: : `Infostrum` @Songshan/Taipei
   - issues assigned by `Global eSolutions` @HongKong
-- :construction_worker: : Financial Software Engineer, 2018.04 - 
-- maintain products
+  - maintain product called Auton: True Multi-Asset Trading Terminal(真實多樣資產交易終端)
+    - foreign exchange(外匯), precious metal(貴金屬), and us index(美國指數: DJ, S&P)
+    - desktop app(C# ASP.NET WinForm)
+    - mobile app(Android Java, Objective-C)
+    - metatrader query language(MQL) project
+- :construction_worker: : Financial Software Engineer, 2018.04 - now
+- Company Pieceworks (now >> past)
+  - Beanfun! Planet & Dashboard Website
+  - Qian Shou Dian Jing(牽手電競) Live Stream Website (Content Aggregation Platform, 內容聚合平台)
+  - Redeem Reward(兌換獎品) Web API communicating between Mobile Game and E-Commerce Platform
+- Side Projects
+  - PetTogether: A Pet Sitters & Parents Social Networks Platform
+  - Leave of Absence System(LOASystem, 休假系統)
+  - Financial News Crawler(CsQuery, Puppeter) for Financial Calendar
+- Other Contributions
+  - Introduce Git to teammates
+  - Set up Docker Environment inside Linux CentOS Server Machine for
+    - LOASystem: Leave Taking & Signing for Company Employees
+    - GitLab: Version Controlling, also Setup Gitlab Runner for CICD purpose
+    - CodiMD: A premises version of HackMD, and Introduce Markdown to teammates.
+    - Beanfun! Dashboard Website for testing internally, and with .gitlab-ci.yml
