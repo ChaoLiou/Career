@@ -69,6 +69,10 @@ Chaol's Careers
     - The Social Network for Pet Parents, and everyone can be Pet Sitter or Other Service Provider.
     - First, Pet Parents Search Services on Platform, then Contact the Provider and Check Quotation and Date & Time with Each Other.
     - When Service’s Finished, both Members can Comment and Post Blogs to Share their Experience.
+    - Use ASP.NET core MVC 5 for server, and Nuxt for client
+    - Host on Azure App Service with Azure SQL Service (choose MS SQL), and all the resources, including images and document files from members or Pettogether are stored as Azure Storage Blob.
+    - Use Authentication.JwtBearer to save JSON Web Token(JWT) in browser cookie after logging in, then every time calling Web API with JWT can be available to validate identity of caller.
+    - Use SignalR(WebSocket) for Communication System, and store members’ chatting history in Azure Storage Table.
     - `vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `signalR`, `jwt`, `mssql`, `azure storage:blob/table`, `azure app service`, `azure mssql`
     - [standalone version](https://chaolpettogether.z7.web.core.windows.net)
   - gaming live stream & forum website(`vue`, `nuxt`) - [standalone version](https://chaolqsdj.z7.web.core.windows.net/#/)
