@@ -7,10 +7,10 @@ Chaol's Careers [slider](https://docs.google.com/presentation/d/1Zg-5n2su0tPHKzs
 - graduated from CSIE/NCYU (@Chiayi), 2014.06
 
 - been employed at(sorted by date in descending order)
-  - Financial Software Engineer@[Infostrum](https://github.com/ChaoLiou/Careers/tree/master/3.%20infostrum-1804), 2018.04-now (above 3 yrs)
-  - Full Stack Web Developer@[LearningTech](https://github.com/ChaoLiou/Careers/tree/master/2.%20ltc-1412-1802), 2014.12-2018.02 (3 yrs & 2 mos)
+  - Financial Software Engineer @[Infostrum](https://github.com/ChaoLiou/Careers/tree/master/3.%20infostrum-1804), 2018.04-now (above 3 yrs)
+  - Full Stack Web Developer @[LearningTech](https://github.com/ChaoLiou/Careers/tree/master/2.%20ltc-1412-1802), 2014.12-2018.02 (3 yrs & 2 mos)
     - [zh-tw ver](https://github.com/ChaoLiou/Careers/tree/master/2.%20ltc-1412-1802/README.zh-tw.md)
-  - Quality Assurance Engineer@[FineArt](https://github.com/ChaoLiou/Careers/tree/master/1.%20fineart-1407-1411), 2014.07-2014.11 (4 mos)
+  - Quality Assurance Engineer @[FineArt](https://github.com/ChaoLiou/Careers/tree/master/1.%20fineart-1407-1411), 2014.07-2014.11 (4 mos)
   
 - my portfolio(sorted by project scale)
   - beanfun! planet website & beanfun! planet dashboard website
