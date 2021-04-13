@@ -1,5 +1,5 @@
 # Careers
-Chaol's Careers
+Chaol's Careers [slider](https://docs.google.com/presentation/d/1Zg-5n2su0tPHKzsq8C90hXWpl-UMPeuu2bDGJ9zWu8A/edit?usp=sharing)
 
 ## Brief Introduction
 - Cha Hao, Liu (you can call me **Chaol**, [\`keo])
@@ -8,8 +8,42 @@ Chaol's Careers
 
 - been employed at(sorted by date in descending order)
   - [Infostrum](/3.%20infostrum-1804), 2018.04-now (above 3 yrs)
+    - :office: : `Infostrum` @Songshan/Taipei
+    - issues assigned by `Global eSolutions` @HongKong
+    - maintain product called Auton: True Multi-Asset Trading Terminal(真實多樣資產交易終端)
+      - foreign exchange(外匯), precious metal(貴金屬), and us index(美國指數: DJ, S&P)
+      - desktop app(C# ASP.NET WinForm)
+      - mobile app(Android Java, Objective-C)
+      - metatrader query language(MQL) project
+    - :construction_worker: : Financial Software Engineer, 2018.04 - now
+  - Company Pieceworks (now >> past)
+    - Beanfun! Planet & Dashboard Website
+    - Qian Shou Dian Jing(牽手電競) Live Stream Website (Content Aggregation Platform, 內容聚合平台)
+    - Redeem Reward(兌換獎品) Web API communicating between Mobile Game and E-Commerce Platform
+  - Side Projects
+    - PetTogether: A Pet Sitters & Parents Social Networks Platform
+    - Leave of Absence System(LOASystem, 休假系統)
+    - Financial News Crawler(CsQuery, Puppeter) for Financial Calendar
+  - Other Contributions
+    - Introduce Git to teammates
+    - Set up Docker Environment inside Linux CentOS Server Machine for
+      - LOASystem: Leave Taking & Signing for Company Employees
+      - GitLab: Version Controlling, also Setup Gitlab Runner for CICD purpose
+      - CodiMD: A premises version of HackMD, and Introduce Markdown to teammates.
+      - Beanfun! Dashboard Website for testing internally, and with .gitlab-ci.yml
   - [LearningTech](/2.%20ltc-1412-1802), 2014.12-2018.02 (3 yrs & 2 mos)
     - [zh-tw ver](/2.%20ltc-1412-1802/README.zh-tw.md)
+    - Focus on Patent & Intellectual Property(IP) across Global
+      - Patent Searching & Analysis Platform, IP Management System
+    - Development & Maintenance
+      - Monolithic Website (ASP.NET MVC 5, JQuery, Knockout.js, Less)
+      - SQL Database (MS SQL)
+    - Show-off Projects
+    - Patent Transfer System [Flow Graph](https://github.com/ChaoLiou/Careers/tree/master/2.%20ltc-1412-1802#patents-transfer-system-arrow_up_small)
+      - Transfer them from Archives/Zips/Files to Database
+      - Maintainable for New Patent Source
+    - Patent PDFs Download System [Flow Graph](https://github.com/ChaoLiou/Careers/tree/master/2.%20ltc-1412-1802#patent-pdfs-download-system-arrow_up_small)
+      - Easy to Implement on Existing Projects
   - [FineArt](/1.%20fineart-1407-1411), 2014.07-2014.11 (4 mos)
   
 - my portfolio(sorted by project scale)
