@@ -21,21 +21,21 @@
       - A App Webview Website and Concatenating RESTful APIs.
       - A Dashboard Website with both Client & Server sides, and Consuming gRPC Services from Golang gRPC Server of Beanfun!.
     - `vue`, `vuex`, `nuxt`, `nestjs`, `scss`, `styleguidist`, `webpack`, `vue cli`, `unit test`
-    - beanfun! planet website - [standalone version](https://chaolnewsfrontendpage.z7.web.core.windows.net/#/)
+    - beanfun! planet website - [demo](https://chaolnewsfrontendpage.z7.web.core.windows.net/#/)
       - [styleguide](https://chaolnewsfrontendpage.z7.web.core.windows.net/styleguide/)
-    - beanfun! planet dashboard website - [standalone version](https://chaolnewsbackstage.z7.web.core.windows.net/)
+    - beanfun! planet dashboard website - [demo](https://chaolnewsbackstage.z7.web.core.windows.net/)
       - [swagger](https://chaolnewsbackstage.z7.web.core.windows.net/api/)
   - [leave of absence system](https://github.com/ChaoLiou/LOASystem)
     - A Employee Attendance Management
     - `vue`, `express`, `mongodb`, `line msg api`, `azure function`, `azure storage:table`, `xlsx-populate`
-    - [standalone version](https://chaolloasystem.z7.web.core.windows.net)
+    - [demo](https://chaolloasystem.z7.web.core.windows.net)
   - pets sitting service platform: [client](https://github.com/ChaoLiou/Pettogether) & [server](https://github.com/ChaoLiou/PettogetherServer)
     - The Social Network for Pet Parents, and everyone can be Pet Sitter or Other Service Provider.
     - First, Pet Parents Search Services on Platform, then Contact the Provider and Check Quotation and Date & Time with Each Other.
     - When Service’s Finished, both Members can Comment and Post Blogs to Share their Experience.
     - `vue`, `nuxt`, `c#`, `asp.net core mvc 5`, `signalR`, `jwt`, `mssql`, `azure storage:blob/table`, `azure app service`, `azure mssql`
-    - [standalone version](https://chaolpettogether.z7.web.core.windows.net)
-  - gaming live stream & forum website(`vue`, `nuxt`) - [standalone version](https://chaolqsdj.z7.web.core.windows.net/#/)
+    - [demo](https://chaolpettogether.z7.web.core.windows.net)
+  - gaming live stream & forum website(`vue`, `nuxt`) - [demo](https://chaolqsdj.z7.web.core.windows.net/#/)
     - A Website with Gaming Live Streams of Multiple Platforms
   - redeem your serial number web api(`c#`, `asp.net core mvc 5`, `mssql`)
   - metatrader handler on socket connection(`mql5`, `c++`)
