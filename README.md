@@ -38,6 +38,7 @@
   - gaming live stream & forum website(`vue`, `nuxt`) - [demo](https://chaolqsdj.z7.web.core.windows.net/#/)
     - A Website with Gaming Live Streams of Multiple Platforms
   - redeem your serial number web api(`c#`, `asp.net core mvc 5`, `mssql`)
+    - A Web API for communication between mobile game and e-commerce platform
   - metatrader handler on socket connection(`mql5`, `c++`)
   - financial news crawling tool(`c#`, `.net`)
   - marketing information system website(`vue`, `nuxt`)
