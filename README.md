@@ -21,10 +21,10 @@
       - A App Webview Website and Concatenating RESTful APIs.
       - A Dashboard Website with both Client & Server sides, and Consuming gRPC Services from Golang gRPC Server of Beanfun!.
     - `vue`, `vuex`, `nuxt`, `nestjs`, `scss`, `styleguidist`, `webpack`, `vue cli`, `unit test`
-    - beanfun! planet website - [demo](https://chaolnewsfrontendpage.z7.web.core.windows.net/#/)
-      - [styleguide](https://chaolnewsfrontendpage.z7.web.core.windows.net/styleguide/)
-    - beanfun! planet dashboard website - [demo](https://chaolnewsbackstage.z7.web.core.windows.net/)
-      - [swagger](https://chaolnewsbackstage.z7.web.core.windows.net/api/)
+    - beanfun! planet website - [demo](#)
+      - [styleguide](#)
+    - beanfun! planet dashboard website - [demo](#)
+      - [swagger](#)
   - [leave of absence system](https://github.com/ChaoLiou/LOASystem)
     - A Employee Attendance Management
     - `vue`, `express`, `mongodb`, `line msg api`, `azure function`, `azure storage:table`, `xlsx-populate`
